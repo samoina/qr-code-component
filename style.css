@@ -21,14 +21,8 @@ body {
   line-height: 1.5;
   font: 15px;
   font-family: 'Outfit', sans-serif;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   background-color: var(--light-gray);
-}
-
-img {
-  display: block;
-  width: 100%;
-  border-radius: 10px;
 }
 
 input, button, textarea, select {
@@ -50,6 +44,17 @@ input, button, textarea, select {
 
 .main__title {
   padding: 1rem;
+  color: var(--grayish-blue);
+}
+
+.main__para {
+  color: var(--grayish-blue);
+}
+
+.main__image {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
 }
 
 
