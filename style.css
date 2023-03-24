@@ -1,4 +1,12 @@
 /* */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
 
 /* CSS Reset*/
 
@@ -11,10 +19,37 @@
 body {
   height: 100%;
   line-height: 1.5;
+  font: 15px;
+  font-family: 'Outfit', sans-serif;
+  padding: 2rem;
+  background-color: var(--light-gray);
 }
 
-images {
+img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+  border-radius: 10px;
 }
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 24rem;
+  margin: 0 auto;
+}
+
+.main__title {
+  padding: 1rem;
+}
+
 
