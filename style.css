@@ -44,17 +44,19 @@ input, button, textarea, select {
 
 .main__title {
   padding: 1rem;
-  color: var(--grayish-blue);
+  color: var(--dark-blue);
+  line-height: 1.2;
 }
 
 .main__para {
-  color: var(--grayish-blue);
+  color: var(--dark-blue);
 }
 
 .main__image {
   display: block;
   width: 100%;
   border-radius: 10px;
+ 
 }
 
 
